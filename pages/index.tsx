@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import Link from 'next/link'
 import { sanityClient, urlFor } from '../sanity'
-import { Post } from '../typings'
+import { Post } from '../typings.d'
 
 interface Props {
   posts: [Post];
